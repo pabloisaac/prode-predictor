@@ -219,14 +219,13 @@ Confianza: ${narrative.confidence}
     <main className="min-h-screen bg-[#0a0a0a] text-white">
       <div className="max-w-2xl mx-auto px-4 py-8 md:py-12 space-y-6">
         {/* Header */}
-        <div className="text-center space-y-2">
-          <div className="text-xs font-bold text-[#00E676] uppercase tracking-widest">
-            Mundial 2026
-          </div>
-          <h1 className="text-3xl md:text-4xl font-black tracking-tight">⚽ Predictor</h1>
-          <p className="text-gray-500 text-sm max-w-sm mx-auto">
-            Simulación Monte Carlo con datos reales buscados por IA
-          </p>
+        <div className="flex justify-center">
+          <img
+            src="/logo.svg"
+            alt="Mundial 2026 Predictor"
+            className="w-full max-w-md"
+            draggable={false}
+          />
         </div>
 
         {/* Error banner */}
